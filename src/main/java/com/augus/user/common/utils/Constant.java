@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com.augus.common.utils;
+package com.augus.user.common.utils;
 
 
 

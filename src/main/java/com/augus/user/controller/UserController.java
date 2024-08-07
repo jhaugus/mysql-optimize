@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.augus.user.entity.UserEntity;
 import com.augus.user.service.UserService;
-import com.augus.common.utils.PageUtils;
-import com.augus.common.utils.R;
+import com.augus.user.common.utils.PageUtils;
+import com.augus.user.common.utils.R;
 
 
 

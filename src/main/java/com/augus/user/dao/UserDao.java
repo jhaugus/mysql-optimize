@@ -3,6 +3,9 @@ package com.augus.user.dao;
 import com.augus.user.entity.UserEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
 
 /**
  * 
@@ -13,5 +16,12 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface UserDao extends BaseMapper<UserEntity> {
-	
+
+    @Select("SELECT id FROM user WHERE status='Active'")
+    List<Long> selectActiveUserIds();
+
+
+    @Select("SELECT * FROM user WHERE status='Active'")
+    List<Long> selectAllUserIds();
+
 }
