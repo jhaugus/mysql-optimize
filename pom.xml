@@ -13,7 +13,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.6.13</spring-boot.version>
         <commons.lang.version>2.6</commons.lang.version>
-        <shiro.version>1.9.0</shiro.version>
+        <shiro.version>1.13.0</shiro.version>
         <mybatisplus.version>3.3.1</mybatisplus.version>
         <lombok.version>1.18.4</lombok.version>
         <mysql.version>8.0.28</mysql.version>
