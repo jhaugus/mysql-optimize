@@ -1,3 +1,5 @@
+package com.augus.user.test;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.security.MessageDigest;
